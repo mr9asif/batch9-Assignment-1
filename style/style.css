@@ -1,0 +1,99 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+.first-div{
+     position: relative; 
+    width: 1320px;
+    height: 600px;
+    flex-shrink: 0;
+    border:1px solid;
+    margin-left: 70px;
+    background-image:url("../Resources/Banner\ Image.png");
+    background-size:1200px;
+    z-index: -1;
+    /* opacity: .80; */
+   background-blend-mode: darken;
+   /* background-size: cover; */
+   border-radius: 16px;
+background: linear-gradient(180deg, #070211 0%);
+
+
+
+}
+.first-wlc{
+    position: relative;
+    color: #FFF;
+    /* border: 1px solid; */
+    /* width: 260 40; */
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+   margin-top: 200px;
+    
+}
+.first-wlc2{
+    color: #FFF;
+    /* border: 1px solid; */
+    width: 400px;
+    align-items: center;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 95px; /* 131.944% */
+    margin-left: 490px;
+    margin-bottom: 100px;
+    line-height: 70px;
+}
+.second-div{
+    width: 800px;
+    height: 600px;
+    border: 1px solid;
+    text-align: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 25vw;
+}
+.second-wlc{
+    color: #F00;
+
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.second-wlc2{
+    color: #F00;
+
+    text-align: center;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    margin-bottom: -5px;
+}
+.second-wlc3{
+    color: #070211;
+
+    text-align: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 5px;
+}
+.new-year-img{
+    width: 400px;
+    height: 300px;
+    flex-shrink: 0;
+}
