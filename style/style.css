@@ -337,7 +337,7 @@ background: linear-gradient(180deg, #070211 0%);
     width: 95%;
     height: 1100px;
     margin-left: 70px;
-     border:1px solid; 
+     /* border:1px solid;  */
     margin-top: 100px;
     /* margin-bottom: 50px; */
 }
@@ -381,8 +381,8 @@ text-transform: capitalize;
 .eight-div{
     width: 1320px;
     height: 616px;
-    flex-shrink: 0;
-    border:1px solid;
+     flex-shrink: 0;
+   /* border:1px solid; */
     margin-top: 100px;
     margin-left: 70px;
     align-items: center;
@@ -450,7 +450,7 @@ input[type="submit"]{
     text-transform: capitalize;
 }
 footer {
-    border: 1px solid;
+    /* border: 1px solid; */
     width: 1320px;
     height: 609px;
     flex-shrink: 0;
@@ -564,6 +564,11 @@ footer {
     font-weight: 500;
     line-height: normal;
     
+}
+.img-2{
+    border:10px solid red;
+    border-radius: 50%;
+    padding: 25px;
 }
 
 
