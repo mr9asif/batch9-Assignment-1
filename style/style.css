@@ -309,11 +309,11 @@ background: linear-gradient(180deg, #070211 0%);
     line-height: 32px; /* 160% */
     margin-left: 110px;
 }
-.img-2-six{
+/* .img-2-six{
     width: 1320px;
     height: 429px;
     /* flex-shrink: 0; */
-    border-radius: 16px 0px 16px 16px;
+    /* border-radius: 16px 0px 16px 16px;
     background: #F00;
     align-items: baseline;
     margin-top: 100px; 
@@ -322,31 +322,56 @@ background: linear-gradient(180deg, #070211 0%);
     width: 400px;
     height: 400px;
     z-index: 7;
-    position: inherit;
+    position: inherit; */
 
-}
-.img-1-six{
+/* }
+/* .img-1-six{
      width: 15px;
     height: 12px;
      flex-shrink: 0;  */
-     margin-top: 160px;
+     /* margin-top: 160px;
     position: relative;
-    margin-left: 1000px;  
-}
-.img-3-six{
+    margin-left: 1000px;   
+} */
+/* .img-3-six{
  position: absolute;
  margin-left: -125px;
  margin-top: -38px;
  z-index: -1;
 
-}
-.img-4-six{
+}  */
+ /* .img-4-six{
     width: 206.841px;
     height: 206.841px;
     flex-shrink: 0;
     margin-left: -250px;
     margin-top: 80px;
-    z-index: 5;
+    z-index: 5; 
+} */
+
+/* try//////////////////// */
+
+.img-2-six{
+    position: relative;
+    top:60px;
+    z-index: -5;
+}
+.img-1-six{
+    width: 500px;
+    position: relative;
+    top:250px;
+    left:40px;
+    color:#FFB800
+}
+.img-3-six{
+ position: relative;
+ top:65px;
+ left: 390px;
+ z-index: -7;
+}
+.img-4-six{
+    position: relative;
+    left: -190px;
 }
 .seven-div{
   
