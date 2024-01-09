@@ -17,8 +17,8 @@
    background-blend-mode: darken;
    /* background-size: cover; */
    border-radius: 16px;
-background: linear-gradient(180deg, #070211 0%);
-
+   background: linear-gradient(180deg, #070211 0%);
+   /* margin-top: o px; */
 
 
 }
